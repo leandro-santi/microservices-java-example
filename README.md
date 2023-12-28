@@ -2,6 +2,8 @@
 
 ## Flow
 
+![title](flow.png)
+
 * An client sends a POST to register a new user
   * User microservice will do it.
 * User microservice (Producer) saves the new user in a database.
