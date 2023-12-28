@@ -10,3 +10,18 @@
 * User microservice publish the message in a broker (RabbitMQ - CloudAMQP).
 * Email microservice (Consumer) listen and consume the messages in the broker in async mode.
 * Email microservice send an email to the final destination and saves email's register in a database.
+
+## Tecnologies
+
+* Java 17
+* Maven
+* Spring Boot
+  * Spring Web
+  * Spring Data JPA
+  * Spring Validation
+  * Spring AMQP
+  * Spring Mail
+* PostgreSQL
+* RabbitMQ
+* CloudAMQP
+* SMTP GMAIL
