@@ -4,7 +4,7 @@
 
 ![title](flow.png)
 
-* An client sends a POST to register a new user
+* A client sends a POST to register a new user
   * User microservice will do it.
 * User microservice (Producer) saves the new user in a database.
 * User microservice publish the message in a broker (RabbitMQ - CloudAMQP).
