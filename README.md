@@ -11,7 +11,7 @@
 * Email microservice (Consumer) listen and consume the messages in the broker in async mode.
 * Email microservice send an email to the final destination and saves email's register in a database.
 
-## Tecnologies
+## Technologies
 
 * Java 17
 * Maven
